@@ -1,0 +1,56 @@
+/* this is my custom CSS */
+
+.jumbotron {
+    padding-bottom: 2em;
+    padding-top: .8em;
+	background-color: #e4f1fe;
+}
+
+.blue{
+	border-top: 5px solid #e4f1fe;
+	background-color: #e4f1fe;
+	margin-top: .5em;
+}
+footer address {
+	font-size: 70%;
+}
+footer div {
+	padding-top: .5em;
+}
+.social-media {
+	padding-top: 1em;
+}
+footer.blue p {
+	padding-top: 1em;
+}
+.navbar-custom {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+/**
+.col-xs-12.label-xs-width, div.col-xs-12 input.input-xs-width {
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+}
+.col-xs-12.button-xs-width {
+	display: block;
+	width: 50px;
+	margin: 0 auto;
+}
+**/
+
+.xs-container.col-xs-12 {
+	min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.xs-container.col-xs-12 {
+	min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}

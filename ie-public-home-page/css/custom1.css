@@ -1,0 +1,102 @@
+/* this is my custom CSS */
+body {
+	background: -moz-linear-gradient(270deg, #e4f1fe 0%, #ffffff 33%);/* FF3.6+ */
+	background: -webkit-gradient(linear, 270deg, color-stop(0%, #e4f1fe), color-stop(33%, #ffffff));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(270deg, #e4f1fe 0%, #ffffff 33%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(270deg, #e4f1fe 0%, #ffffff 33%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(270deg, #e4f1fe 0%, #ffffff 33%);/* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f1fe', endColorstr='#ffffff', GradientType='1'); /* for IE */
+	background: linear-gradient(180deg, #e4f1fe 0%, #ffffff 33%);/* W3C */
+}
+header {
+	border-bottom:  1px solid #DFE2E1;
+}
+.jumbotron {
+    padding-bottom: 2em;
+    padding-top: .8em;
+	background-color: transparent;
+}
+
+.blue{
+	border-top: 5px solid #e4f1fe;
+	background-color: #e4f1fe;
+	margin-top: .5em;
+}
+footer address {
+	font-size: 70%;
+}
+footer div {
+	padding-top: .5em;
+}
+.social-media {
+	padding-top: 1em;
+}
+footer.blue p {
+	padding-top: 1em;
+}
+.navbar-custom {
+    border: none;
+	background-color: transparent;
+}
+/**
+.col-xs-12.label-xs-width, div.col-xs-12 input.input-xs-width {
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+}
+.col-xs-12.button-xs-width {
+	display: block;
+	width: 50px;
+	margin: 0 auto;
+}
+**/
+
+.xs-container.col-xs-12 {
+	min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.xs-container.col-xs-12 {
+	min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.wide {
+	width:100%;
+}
+.right-pdng{
+	padding-right:200px;
+}
+.left-pdng{
+	padding-left:200px;
+}
+.pdng {
+	padding:20px;
+}
+.formbox {
+    background-color: #F8F8F8;
+    border: 1px solid #D9D9D9;
+    min-height: 200px;
+    padding: 20px 12px 20px 20px;
+    position: relative;
+    width: 200px;
+}
+footer, .shadow {
+	background: -moz-linear-gradient(270deg, #ffffff 92%, #e4f1fe 100%);/* FF3.6+ */
+	background: -webkit-gradient(linear, 270deg, color-stop(92%, #ffffff), color-stop(100%, #e4f1fe));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(270deg, #ffffff 92%, #e4f1fe 100%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(270deg, #ffffff 92%, #e4f1fe 100%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(270deg, #ffffff 92%, #e4f1fe 100%);/* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e4f1fe', GradientType='1'); /* for IE */
+	background: linear-gradient(180deg, #ffffff 92%, #e4f1fe 100%);/* W3C */
+}
+.more-info {
+    color: #36A2C1;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    padding-right: 13px;
+}
