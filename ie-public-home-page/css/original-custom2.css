@@ -86,7 +86,7 @@ footer.blue p {
     background-color: #F8F8F8;
     border: 1px solid #D9D9D9;
     min-height: 200px;
-    padding: 20px 12px 20px 20px;
+    padding: 20px 20px 20px 20px;
     position: relative;
     width: 200px;
 }
@@ -100,6 +100,9 @@ footer.blue p {
 	background: linear-gradient(360deg, #e4f1fe 0%, #ffffff 10%);/* W3C */
 }
 footer {
+	padding: 20px 0;
+	color: #005793;
+	border-top: 1px solid #DFE2E1;
 	background: -moz-linear-gradient(270deg, #e4f1fe 50%, #ffffff 100%);/* FF3.6+ */
 	background: -webkit-gradient(linear, 270deg, color-stop(50%, #e4f1fe), color-stop(100%, #ffffff));/* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(270deg, #e4f1fe 50%, #ffffff 100%);/* Chrome10+,Safari5.1+ */
